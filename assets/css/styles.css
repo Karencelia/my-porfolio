@@ -593,7 +593,7 @@ textarea::placeholder {
 
     /* Header for mobile */
     nav>ul {
-        /* background: lightblue; */
+        background: rgb(4, 182, 241);
         position: fixed;
         top: 0;
         left: -200px;
@@ -602,6 +602,16 @@ textarea::placeholder {
         padding-top: 50px;
         z-index: 2;
         transition: left 0.5s;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 10px;
+    }
+    ul>a:hover {
+        color: white;
+    }
+
+    ul>a:nth-child(5) {
+        background-color: transparent;
+        color: white;
     }
 
     nav .fa-solid {
@@ -611,7 +621,7 @@ textarea::placeholder {
     }
 
     nav ul a {
-        /* display: block; */
+        display: block;
         margin: 25px;
         color: black;
     }
@@ -677,7 +687,7 @@ textarea::placeholder {
     }
 
     .cta-btn2 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .cta-btn p {
